@@ -3,6 +3,10 @@ using UnityEngine;
 
 public static class Settings 
 {
+    // Player Movement
+    public const float runningSpeed = 5.333f;
+    public const float walkingSpeed = 2.666f;
+
     // Player Animation Parameters
     public static int xInput;
     public static int yInput;
@@ -35,7 +39,9 @@ public static class Settings
     // static constructor
     static Settings()
     {
-        // Player Animation Parameters
+
+
+    // Player Animation Parameters
         xInput = Animator.StringToHash("xInput");
         yInput = Animator.StringToHash("yInput");
         isWalking = Animator.StringToHash("isWalking");

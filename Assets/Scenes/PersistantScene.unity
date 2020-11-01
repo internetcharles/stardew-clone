@@ -431,7 +431,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8510135736066758292}
   - component: {fileID: 7432090967687462755}
-  - component: {fileID: 32766258994829730}
   m_Layer: 0
   m_Name: equippedItem
   m_TagString: Untagged
@@ -439,18 +438,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &32766258994829730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32766258994829729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &454795262256859019
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +449,6 @@ GameObject:
   - component: {fileID: 8156410420529851187}
   - component: {fileID: 2587899650045183552}
   - component: {fileID: 454795262256859020}
-  - component: {fileID: 454795262256859021}
   - component: {fileID: 454795262256859022}
   m_Layer: 0
   m_Name: body
@@ -490,18 +476,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &454795262256859021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454795262256859019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &454795262256859022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,7 +499,6 @@ GameObject:
   - component: {fileID: 1363888746418209697}
   - component: {fileID: 2163750329669501790}
   - component: {fileID: 508208003889479410}
-  - component: {fileID: 508208003889479411}
   - component: {fileID: 508208003889479412}
   m_Layer: 0
   m_Name: hair
@@ -553,18 +526,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &508208003889479411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 508208003889479409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &508208003889479412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -922,7 +883,6 @@ GameObject:
   - component: {fileID: 2771527393989959924}
   - component: {fileID: 1092740231962192704}
   - component: {fileID: 5665947841215259353}
-  - component: {fileID: 5665947841215259354}
   - component: {fileID: 5665947841215259355}
   m_Layer: 0
   m_Name: hat
@@ -950,18 +910,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5665947841215259354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5665947841215259352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5665947841215259355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -985,7 +933,6 @@ GameObject:
   - component: {fileID: 5509281401343704216}
   - component: {fileID: 8113730382852604121}
   - component: {fileID: 6011005917595098796}
-  - component: {fileID: 6011005917595098797}
   - component: {fileID: 6011005917595098798}
   m_Layer: 0
   m_Name: tool
@@ -1013,18 +960,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6011005917595098797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6011005917595098795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6011005917595098798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1048,7 +983,6 @@ GameObject:
   - component: {fileID: 8005959127320670966}
   - component: {fileID: 6916926717516143438}
   - component: {fileID: 6105874453558756969}
-  - component: {fileID: 6105874453558756970}
   - component: {fileID: 6105874453558756971}
   m_Layer: 0
   m_Name: toolEffect
@@ -1076,18 +1010,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6105874453558756970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6105874453558756968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6105874453558756971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1122,7 +1044,6 @@ GameObject:
   - component: {fileID: 8184807784351036261}
   - component: {fileID: 1095047398053405485}
   - component: {fileID: 6818835280854921732}
-  - component: {fileID: 6818835280854921733}
   - component: {fileID: 6818835280854921734}
   m_Layer: 0
   m_Name: arms
@@ -1150,18 +1071,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6818835280854921733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6818835280854921731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35830ccc5d20c8b418b1a6b7e6cd57ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6818835280854921734
 MonoBehaviour:
   m_ObjectHideFlags: 0
