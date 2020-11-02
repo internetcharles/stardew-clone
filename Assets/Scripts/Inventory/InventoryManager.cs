@@ -7,8 +7,9 @@ public class InventoryManager : SingletonMonobehavior<InventoryManager>
 
     [SerializeField] private SO_ItemList itemList = null;
 
-    private void Start()
+    protected override void Awake()
     {
+        base.Awake();
         // Create item details dictionary
         CreateItemDetailsDictionary();
     }
